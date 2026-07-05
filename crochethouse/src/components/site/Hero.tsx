@@ -4,23 +4,23 @@ import { ArrowRight, Star, Sparkles, Heart, ShoppingBag } from "lucide-react";
 
 const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-const INSTA = "https://www.instagram.com/diariesofhandmade/";
+const INSTA = "https://www.instagram.com/vinkaari_/";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783266872/Screenshot_2026-07-05_at_9.22.30_PM_o7rvk4.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270296/Screenshot_2026-07-05_at_10.19.56_PM_zzml7t.png",
     tag: "Handmade",
     title: "Crochet Bags & Totes",
     sub: "Hand-knotted · Soft yarn · Custom colours",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783266890/Screenshot_2026-07-05_at_9.24.38_PM_nkpmmo.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270298/Screenshot_2026-07-05_at_10.20.53_PM_luoevf.png",
     tag: "Bestseller",
     title: "Beaded Jewellery",
     sub: "Delicate beads · Personalised designs",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783266866/Screenshot_2026-07-05_at_9.23.04_PM_jgyjr8.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270296/Screenshot_2026-07-05_at_10.20.22_PM_mojbve.png",
     tag: "New Drop",
     title: "Crochet Accessories",
     sub: "Headbands · Keychains · Gift sets",
@@ -129,7 +129,7 @@ export function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-rose opacity-75" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-rose" />
               </span>
-              Accepting orders · Mumbai
+              Accepting orders · Pan India
             </span>
           </motion.div>
 
@@ -159,7 +159,7 @@ export function Hero() {
             transition={{ delay: 0.45, duration: 0.7 }}
             className="mt-5 max-w-lg mx-auto lg:mx-0 text-[1.05rem] text-muted-foreground leading-relaxed"
           >
-            Kiran crafts every piece by hand — beaded jewellery, crochet bags &
+            Vinkaari crafts every piece by hand — beaded jewellery, crochet bags &
             accessories that add gems to your life. ✨
           </motion.p>
 

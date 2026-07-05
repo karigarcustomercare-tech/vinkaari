@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! Kiran will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Vinkaari will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -94,7 +94,7 @@ export function Contact() {
                 {
                   icon: MapPin,
                   title: "Based in",
-                  copy: "Mumbai , Maharashtra — ships pan-India.",
+                  copy: "Pan India , Maharashtra — ships pan-India.",
                 },
                 {
                   icon: Clock,
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/diariesofhandmade/", label: "Instagram", sub: "@diariesofhandmade" },
+                  { icon: Instagram,     href: "https://www.instagram.com/vinkaari_/", label: "Instagram", sub: "@vinkaari_" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a
@@ -145,7 +145,7 @@ export function Contact() {
               {/* Map — Nagpur */}
               <div className="soft-card overflow-hidden flex-1 min-h-[160px]">
                 <iframe
-                  title="Mumbai map"
+                  title="Pan India map"
                   src="https://www.openstreetmap.org/export/embed.html?bbox=72.75%2C18.88%2C73.05%2C19.28&layer=mapnik&marker=19.0760,72.8777"
                   className="h-40 w-full border-0"
                   loading="lazy"

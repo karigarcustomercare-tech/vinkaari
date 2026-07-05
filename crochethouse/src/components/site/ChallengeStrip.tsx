@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Instagram, Flame, ChevronLeft, ChevronRight, Lock, ShoppingBag } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const INSTA = "https://www.instagram.com/diariesofhandmade/";
+const INSTA = "https://www.instagram.com/vinkaari_/";
 
 // ── Challenge config ─────────────────────────────────────────────────────────
 // Day 1 = July 3, 2026 (today = Day 3 per user)
@@ -167,7 +167,7 @@ export function ChallengeStrip() {
               </motion.span>
             </h2>
             <p className="mx-auto mt-3 max-w-md text-muted-foreground text-sm sm:text-base leading-relaxed">
-              Kiran is launching one handcrafted piece every single day for 30 days.
+              Vinkaari is launching one handcrafted piece every single day for 30 days.
               Don't miss your favourite! 🧶✨
             </p>
           </div>
